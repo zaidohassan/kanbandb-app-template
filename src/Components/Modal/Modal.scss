@@ -15,11 +15,24 @@ button {
   width: 95%;
   background-color: #8ba6a9;
   border: 0;
-  height: 25px;
+  height: 35px;
   color: white;
 
   &.save {
     margin-right: 5px;
     background-color: #8ba6a9;
+  }
+}
+
+@media (max-width: 599px) {
+  .react-responsive-modal-modal {
+    width: 100%;
+    height: 75%;
+  }
+  textarea {
+    resize: none;
+    width: 100%;
+    height: 80%;
+    margin-top: 5px;
   }
 }

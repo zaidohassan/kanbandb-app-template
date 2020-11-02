@@ -39,3 +39,11 @@ body {
 h6 {
   margin-bottom: 10px;
 }
+
+@media (max-width: 599px) {
+  .draggable-item {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 65px;
+  }
+}

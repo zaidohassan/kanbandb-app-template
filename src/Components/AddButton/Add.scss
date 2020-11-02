@@ -39,4 +39,35 @@
     height: 40px;
     border: 1px solid lightgrey;
   }
+
+  button,
+  select,
+  input {
+    margin: 0px 5px;
+  }
+
+  @media (max-width: 599px) {
+    flex-direction: column;
+    height: 200px;
+    bottom: 2%;
+    width: 90%;
+    input {
+      width: 80%;
+    }
+
+    button,
+    select {
+      width: 91%;
+    }
+  }
+
+  @media (min-width: 1250px) {
+    select {
+      width: 150px;
+    }
+
+    button {
+      width: 250px;
+    }
+  }
 }
