@@ -1,0 +1,25 @@
+.react-responsive-modal-overlay {
+  background: rgba(0, 0, 0, 0.25) !important ;
+}
+textarea {
+  resize: none;
+  width: 99%;
+  height: 250px;
+}
+.react-responsive-modal-modal {
+  width: 50%;
+  height: 55%;
+}
+
+button {
+  width: 95%;
+  background-color: #8ba6a9;
+  border: 0;
+  height: 25px;
+  color: white;
+
+  &.save {
+    margin-right: 5px;
+    background-color: #8ba6a9;
+  }
+}

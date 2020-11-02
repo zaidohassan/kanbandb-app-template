@@ -5,9 +5,14 @@
   "dependencies": {
     "cra-template": "1.0.3",
     "kanbandb": "github:netpoetica/KanbanDB#master",
+    "node-sass": "^4.14.1",
     "react": "^16.13.1",
+    "react-beautiful-dnd": "^13.0.0",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.3"
+    "react-icons": "^3.11.0",
+    "react-responsive-modal": "^5.2.0",
+    "react-scripts": "3.4.3",
+    "react-toastify": "^6.0.9"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -17,6 +22,13 @@
   },
   "eslintConfig": {
     "extends": "react-app"
+  },
+  "plugins": [
+    "react-hooks"
+  ],
+  "rules": {
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn"
   },
   "browserslist": {
     "production": [
@@ -29,5 +41,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "eslint-plugin-react-hooks": "^4.2.0"
   }
 }
